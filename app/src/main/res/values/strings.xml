@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lab: Grafinė vartotojo sąsaja</string>
+    <string name="pavadinimas">Pavadinimas:</string>
+    <string name="pavadinimas2">Pavadinimas</string>
+    <string name="fakultetas">Fakultetas:</string>
+    <string name="fakultetas2">Fakultetas</string>
+    <string name="sudetingumas">Sudėtingumas:</string>
+    <string name="diena">Diena:</string>
+    <string name="laikas">Laikas:</string>
+    <string name="registruotis">Registruotis</string>
+    <string name="saugoti">SAUGOTI</string>
+
+    <string-array name="days_of_week">
+        <item>Pirmadienis</item>
+        <item>Antradienis</item>
+        <item>Trečiadienis</item>
+        <item>Ketvirtadienis</item>
+        <item>Penktadienis</item>
+        <item>Šeštadienis</item>
+        <item>Sekmadienis</item>
+    </string-array>
+
+</resources>
