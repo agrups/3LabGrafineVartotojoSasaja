@@ -67,10 +67,17 @@ import android.widget.Toast;
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
             public void onClick(View v) {
+                String registered = "Ne";
+                if(register.isChecked()){
+                    registered = "Taip";
+                }
+
                 text = "Pavadinimas: " + name.getText().toString() + "\n" +
                         "Fakultetas: " + faculty.getText().toString() + "\n" +
                         "Sedėtingumas: " + rating.getRating() + "\n" +
-                        "Diena: " + daySelected + "\n";
+                        "Diena: " + daySelected + "\n" +
+                        "Laikas: " + time.getCurrentHour().toString() + "h " + time.getCurrentMinute().toString() + "min" + "\n" +
+                        "Registruotis: " + registered ;
                 Toast.makeText(MainActivity.this, text, Toast.LENGTH_LONG).show();
             }
         });
